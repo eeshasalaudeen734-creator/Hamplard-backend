@@ -4,9 +4,11 @@ dist/
 *.log
 coverage/
 /uploads/
+temp_auto_push.bat
 .DS_Store
 
 .agents/
 .claude/
 issue.md
-skills-lock.json
+skills-lock.json.gitignore
+branch_structure.json

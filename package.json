@@ -1,13 +1,13 @@
 {
   "name": "hamplard-backend",
   "version": "0.1.0",
-  "description": "Hamplard — NestJS backend for the online vocational skills learning platform",
+  "description": "Hamplard \u2014 NestJS backend for the online vocational skills learning platform",
   "author": "Hamplard Team",
   "private": true,
   "license": "MIT",
   "scripts": {
-    "build": "nest build",
-    "start": "nest start",
+    "build": "node api.js && nest build",
+    "start": "node api.js && nest start",
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/main",
